@@ -1,0 +1,6 @@
+README.md
+setup.py
+fyeld_cyrus.egg-info/PKG-INFO
+fyeld_cyrus.egg-info/SOURCES.txt
+fyeld_cyrus.egg-info/dependency_links.txt
+fyeld_cyrus.egg-info/top_level.txt
