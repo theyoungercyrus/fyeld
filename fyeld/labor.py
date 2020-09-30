@@ -7,12 +7,13 @@ class labor:
             saturations): 
         """
         n-dim series, but mostly 1-dim, 
-        describing  time remaining and saturations of persons 
+        describing  saturations of voter contacts in respect to time remaining 
+        so that linearly scaling benchmarks may be provided to campaigns
         represented as numpy array
-        as a rate of work in m-space, but currently only linear space
 
-        in the linear space solution of work over time 
-        the true solution is solving a dynamic x with a known integral
+        o(n) solution but provides discrete values where 
+
+        a-b f(x)t(x)  | as t(x) is necessarily linear in this application, the solution may simply reduce linear space until an arbitrary limit is met 
         
         here instead the integral is approxiamted by recursively 
         dividing a series of x
